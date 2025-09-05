@@ -8,8 +8,6 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Mail, Phone, MapPin, Clock, CheckCircle, AlertCircle } from "lucide-react"
-import { Header } from "@/components/layout/header"
-import { Footer } from "@/components/layout/footer"
 import { submitContactForm } from "@/lib/actions/contact-actions"
 
 function SubmitButton() {
@@ -31,7 +29,6 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
 
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto">
@@ -164,7 +161,6 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <Footer />
     </div>
   )
 }

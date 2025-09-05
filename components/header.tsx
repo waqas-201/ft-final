@@ -50,11 +50,11 @@ export function Header() {
               >
                 Projects
               </Link>
-              <Link href="/about" className="text-foreground hover:text-primary transition-colors font-medium">
-                About
+              <Link href="/contact" className="text-foreground hover:text-primary transition-colors font-medium">
+                Contact
               </Link>
               <Link href="/admin" className="text-foreground hover:text-primary transition-colors font-medium">
-                admin
+                Admin
               </Link>
             </nav>
 
