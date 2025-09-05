@@ -21,7 +21,7 @@ export default function HomePage() {
           <HeroSection />
           
             
-          <div className="md:w-[80%] w-full">
+        <div className="md:w-[80%] w-[95%]">
 
             <FeaturesSection />
             <BrandShowcase />
